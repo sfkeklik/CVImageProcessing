@@ -889,10 +889,11 @@ void mahalanobisDistance(int* k3D, int* labelHistogram3D, int* histogram3D, int 
 	int distanceToCenterX;
 	int distanceToCenterY;
 	int distanceToCenterZ;
-
-	int ortX;
-	int ortY;
-	int ortZ;
+	
+	//Initialize with zero.
+	int ortX = 0;
+	int ortY = 0;
+	int ortZ = 0;
 
 
 
